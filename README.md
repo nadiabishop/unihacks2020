@@ -1,3 +1,12 @@
+import warnings
+warnings.filterwarnings("ignore", message="The 'warn' parameter of")
+
+from datascience import *
+import numpy as np
+
+%matplotlib inline
+import matplotlib.pyplot as plots
+plots.style.use('fivethirtyeight')
 #masks, just a boolean value for now
 masks = True
 #number of people
